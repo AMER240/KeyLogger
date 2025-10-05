@@ -1,0 +1,147 @@
+===============================================================================
+                    TEST KEYLOGGER - KULLANIM TALİMATLARI
+===============================================================================
+
+⚠️ ÖNEMLİ UYARI: Bu yazılım sadece EĞİTİM amaçlıdır!
+- Sadece açık yazılı izin alınmış kişilerde kullanın
+- İzinsiz kullanım yasalara aykırıdır
+- Bu bir siber güvenlik eğitim aracıdır
+
+===============================================================================
+KURULUM VE ÇALIŞTIRMA
+===============================================================================
+
+1. TestKeyLogger.exe dosyasını çalıştırın
+2. Program açıldığında "⚙️ Konfigürasyon" butonunu göreceksiniz
+3. Bu buton MAVİ renkte ve "⚙️ Konfigürasyon" yazısı ile işaretlenmiştir
+4. Butona tıklayarak konfigürasyon seçeneklerini görebilirsiniz
+
+===============================================================================
+BUTON ÖZELLİKLERİ
+===============================================================================
+
+✅ KONFİGÜRASYON BUTONU:
+- Metin: "⚙️ Konfigürasyon"
+- Renk: Mavi (LightBlue) - Çok belirgin!
+- Konum: "🗑️ Temizle" butonunun yanında
+- Boyut: 140x40 piksel
+- Font: Arial, 9pt, Bold
+
+✅ DİĞER BUTONLAR:
+- "🚀 Başlat" - Yeşil renkte
+- "🗑️ Temizle" - Gri renkte
+- Durum etiketi - Mavi renkte
+
+===============================================================================
+KONFİGÜRASYON SEÇENEKLERİ
+===============================================================================
+
+📧 E-POSTA AYARLARI:
+- SMTP Sunucu: smtp.gmail.com
+- Port: 587
+- Gönderen E-posta: your-email@gmail.com
+- Şifre: Gmail App Password (16 hane)
+- Alıcı E-posta: recipient@example.com
+
+🌐 FTP AYARLARI:
+- FTP Sunucu: ftp.example.com
+- Port: 21
+- Kullanıcı: ftp_username
+- Şifre: ftp_password
+- Uzak Dizin: /logs/
+
+📱 WEBHOOK AYARLARI:
+- Discord Webhook URL: https://discord.com/api/webhooks/...
+- Slack Webhook URL: https://hooks.slack.com/services/...
+
+===============================================================================
+KULLANIM ADIMLARI
+===============================================================================
+
+1. 📱 UYGULAMAYI BAŞLATIN:
+   - TestKeyLogger.exe dosyasını çift tıklayın
+   - Uygulama açılacak
+
+2. 🔍 KONFİGÜRASYON BUTONUNU BULUN:
+   - "⚙️ Konfigürasyon" butonunu arayın
+   - Mavi renkte ve belirgin olmalı
+   - "🗑️ Temizle" butonunun yanında
+
+3. ⚙️ KONFİGÜRASYONA TIKLAYIN:
+   - "⚙️ Konfigürasyon" butonuna tıklayın
+   - Konfigürasyon bilgi penceresi açılacak
+   - Tüm uzaktan takip seçenekleri görünecek
+
+4. 🚀 TEST EDİN:
+   - "🚀 Başlat" butonuna tıklayın
+   - Durum "Logging Aktif" olacak
+   - Tuş vuruşları ekranda görünecek
+
+===============================================================================
+SORUN GİDERME
+===============================================================================
+
+❌ PROBLEM: Konfigürasyon butonu görünmüyor
+✅ ÇÖZÜM:
+1. Uygulamayı yeniden başlatın
+2. Tüm dosyaların aynı klasörde olduğundan emin olun
+3. Windows Defender'ı geçici olarak kapatın
+
+❌ PROBLEM: Buton tıklanmıyor
+✅ ÇÖZÜM:
+1. Uygulamayı yönetici olarak çalıştırın
+2. Antivirüs programını geçici olarak devre dışı bırakın
+3. Uygulamayı yeniden başlatın
+
+❌ PROBLEM: Konfigürasyon penceresi açılmıyor
+✅ ÇÖZÜM:
+1. .NET Framework 4.8 yüklü olduğundan emin olun
+2. Windows güncellemelerini kontrol edin
+3. Uygulamayı yeniden başlatın
+
+===============================================================================
+YASAL UYARILAR
+===============================================================================
+
+🚨 İZİNSİZ KULLANIM YASAKTIR!
+- 5237 sayılı Türk Ceza Kanunu Madde 244
+- İzinsiz keylogger kullanımı 2-5 yıl hapis cezası
+- Sadece eğitim amaçlı kullanın
+
+✅ DOĞRU KULLANIM:
+- Açık yazılı izin alın
+- Eğitim amaçlı kullanın
+- Verileri güvenli saklayın
+- Kullanım sonrası verileri silin
+
+❌ YASAK KULLANIMLAR:
+- Başkalarının bilgisayarlarında izinsiz
+- Ticari amaçlı kullanım
+- Kişisel veri toplama
+- Kötü niyetli aktiviteler
+
+===============================================================================
+TEKNİK DETAYLAR
+===============================================================================
+
+- Uygulama: TestKeyLogger.exe
+- Platform: .NET Framework 4.8
+- Boyut: 8.7 KB
+- Gereksinimler: Windows 10/11
+- Çalışma Modu: Standalone
+
+===============================================================================
+DESTEK VE YARDIM
+===============================================================================
+
+Sorun yaşarsanız:
+1. Uygulamayı yeniden başlatın
+2. Yönetici olarak çalıştırın
+3. Antivirüs programını geçici olarak kapatın
+4. .NET Framework 4.8 yüklü olduğundan emin olun
+
+===============================================================================
+HAZIRLAYAN: Siber Güvenlik Eğitim Projesi
+TARİH: 2025
+AMAÇ: Sadece eğitim ve öğrenme
+===============================================================================

@@ -1,24 +1,34 @@
-﻿using DevExpress.LookAndFeel;
-using DevExpress.Skins;
-using DevExpress.UserSkins;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Windows.Forms;
 
 namespace GameOdev
 {
-    internal static class Program
+    /// <summary>
+    /// Ana program giriş noktası
+    /// Eğitim amaçlı keylogger uygulaması
+    /// </summary>
+    static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        /// Uygulamanın ana giriş noktası.
         /// </summary>
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            try
+            {
+                // Windows Forms uygulamasını başlat
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                
+                // Konfigürasyon butonlu ana formu başlat
+                Application.Run(new Form1());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Uygulama başlatma hatası: {ex.Message}", 
+                    "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

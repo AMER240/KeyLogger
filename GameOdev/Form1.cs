@@ -31,7 +31,7 @@ namespace GameOdev
         private void SetupUI()
         {
             // Set form properties
-            this.Text = "Educational KeyLogger - Use with Consent Only";
+            this.Text = "🔍 Uzaktan Takip KeyLogger - Eğitim Amaçlı";
             this.Size = new Size(800, 600);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
@@ -63,11 +63,21 @@ namespace GameOdev
             clearButton.Click += ClearButton_Click;
             this.Controls.Add(clearButton);
 
+            // Add CONFIGURATION button - THIS IS THE MISSING BUTTON!
+            SimpleButton configButton = new SimpleButton();
+            configButton.Text = "⚙️ Konfigürasyon";
+            configButton.Size = new Size(140, 40);
+            configButton.Location = new Point(310, 100);
+            configButton.Click += ConfigButton_Click;
+            configButton.BackColor = Color.LightBlue;
+            configButton.Font = new Font("Arial", 9, FontStyle.Bold);
+            this.Controls.Add(configButton);
+
             // Add save button
             SimpleButton saveButton = new SimpleButton();
             saveButton.Text = "Save to File";
             saveButton.Size = new Size(120, 40);
-            saveButton.Location = new Point(310, 100);
+            saveButton.Location = new Point(460, 100);
             saveButton.Click += SaveButton_Click;
             this.Controls.Add(saveButton);
 
@@ -76,7 +86,7 @@ namespace GameOdev
             statusLabel.Name = "statusLabel";
             statusLabel.Text = "Status: Stopped";
             statusLabel.Size = new Size(200, 30);
-            statusLabel.Location = new Point(450, 110);
+            statusLabel.Location = new Point(590, 110);
             statusLabel.ForeColor = Color.Blue;
             statusLabel.Font = new Font("Arial", 10, FontStyle.Bold);
             this.Controls.Add(statusLabel);
@@ -180,6 +190,35 @@ namespace GameOdev
             catch (Exception ex)
             {
                 MessageBox.Show($"Error saving file: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void ConfigButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MessageBox.Show(
+                    "⚙️ KONFİGÜRASYON AYARLARI\n\n" +
+                    "📧 E-posta Ayarları:\n" +
+                    "   SMTP: smtp.gmail.com:587\n" +
+                    "   Gmail App Password gerekli\n\n" +
+                    "🌐 FTP Ayarları:\n" +
+                    "   Sunucu: ftp.example.com:21\n" +
+                    "   Kullanıcı/Şifre gerekli\n\n" +
+                    "📱 Webhook Ayarları:\n" +
+                    "   Discord/Slack webhook URL\n\n" +
+                    "Detaylı ayarlar için:\n" +
+                    "remote_config.json dosyasını düzenleyin\n\n" +
+                    "Örnek konfigürasyon dosyası hazırlanmıştır!\n\n" +
+                    "Uzaktan takip özelliklerini kullanmak için:\n" +
+                    "RemoteKeyLogger sınıfını kullanın.",
+                    "⚙️ Konfigürasyon Bilgisi",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Konfigürasyon hatası: {ex.Message}", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
