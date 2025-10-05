@@ -94,9 +94,11 @@ namespace GameOdev
             keystrokeTextBox.Name = "keystrokeTextBox";
             keystrokeTextBox.Size = new Size(700, 350);
             keystrokeTextBox.Location = new Point(50, 190);
-            keystrokeTextBox.Properties.Multiline = true;
             keystrokeTextBox.Properties.ReadOnly = true;
-            keystrokeTextBox.Properties.ScrollBars = ScrollBars.Vertical;
+            keystrokeTextBox.Properties.UseAdvancedMode = DevExpress.Utils.DefaultBoolean.True;
+            keystrokeTextBox.Properties.Appearance.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+            keystrokeTextBox.Properties.Appearance.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Top;
+            keystrokeTextBox.Properties.Appearance.TextOptions.Trimming = DevExpress.Utils.Trimming.None;
             this.Controls.Add(keystrokeTextBox);
 
             // Add info label
